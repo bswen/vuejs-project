@@ -1,0 +1,58 @@
+2022-12-02 15:40:48,225 - sync-logger - INFO - start check minggan
+2022-12-02 15:40:48,239 - sync-logger - INFO - start sync...
+2022-12-02 15:41:04,425 - sync-logger - INFO - got sync result:
+-------
+
+2022-12-02 15:41:04,426 - sync-logger - INFO - sending incremental file list
+2022-12-02 15:41:04,426 - sync-logger - INFO - ./
+2022-12-02 15:41:04,427 - sync-logger - INFO - 202-12-02-vue3 and bootstrap5.markdown
+2022-12-02 15:41:04,427 - sync-logger - INFO - 
+2022-12-02 15:41:04,427 - sync-logger - INFO - sent 40,630 bytes  received 41 bytes  11,620.29 bytes/sec
+2022-12-02 15:41:04,427 - sync-logger - INFO - total size is 2,848,865  speedup is 70.05
+2022-12-02 15:41:04,428 - sync-logger - INFO - sending incremental file list
+2022-12-02 15:41:04,428 - sync-logger - INFO - 
+2022-12-02 15:41:04,428 - sync-logger - INFO - sent 128 bytes  received 11 bytes  39.71 bytes/sec
+2022-12-02 15:41:04,428 - sync-logger - INFO - total size is 8,754  speedup is 62.98
+2022-12-02 15:41:04,428 - sync-logger - INFO - sending incremental file list
+2022-12-02 15:41:04,428 - sync-logger - INFO - 
+2022-12-02 15:41:04,428 - sync-logger - INFO - sent 10,921 bytes  received 11 bytes  3,123.43 bytes/sec
+2022-12-02 15:41:04,429 - sync-logger - INFO - total size is 72,604,738  speedup is 6,641.49
+2022-12-02 15:41:04,429 - sync-logger - INFO - sending incremental file list
+2022-12-02 15:41:04,429 - sync-logger - INFO - 
+2022-12-02 15:41:04,429 - sync-logger - INFO - sent 170 bytes  received 11 bytes  40.22 bytes/sec
+2022-12-02 15:41:04,429 - sync-logger - INFO - total size is 756  speedup is 4.18
+2022-12-02 15:41:04,429 - sync-logger - INFO - sending incremental file list
+2022-12-02 15:41:04,429 - sync-logger - INFO - 
+2022-12-02 15:41:04,429 - sync-logger - INFO - sent 440 bytes  received 11 bytes  128.86 bytes/sec
+2022-12-02 15:41:04,429 - sync-logger - INFO - total size is 17,265  speedup is 38.28
+2022-12-02 15:41:04,430 - sync-logger - INFO - 
+2022-12-02 15:41:04,430 - sync-logger - INFO - sync done
+2022-12-02 15:43:01,220 - sync-logger - INFO - start check minggan
+2022-12-02 15:43:01,234 - sync-logger - INFO - start sync...
+2022-12-02 15:43:16,200 - sync-logger - INFO - got sync result:
+-------
+
+2022-12-02 15:43:16,200 - sync-logger - INFO - sending incremental file list
+2022-12-02 15:43:16,200 - sync-logger - INFO - ./
+2022-12-02 15:43:16,201 - sync-logger - INFO - 2022-12-02-vue3 and bootstrap5.markdown
+2022-12-02 15:43:16,201 - sync-logger - INFO - 
+2022-12-02 15:43:16,201 - sync-logger - INFO - sent 40,633 bytes  received 43 bytes  11,621.71 bytes/sec
+2022-12-02 15:43:16,201 - sync-logger - INFO - total size is 2,848,865  speedup is 70.04
+2022-12-02 15:43:16,201 - sync-logger - INFO - sending incremental file list
+2022-12-02 15:43:16,201 - sync-logger - INFO - 
+2022-12-02 15:43:16,201 - sync-logger - INFO - sent 128 bytes  received 11 bytes  39.71 bytes/sec
+2022-12-02 15:43:16,201 - sync-logger - INFO - total size is 8,754  speedup is 62.98
+2022-12-02 15:43:16,202 - sync-logger - INFO - sending incremental file list
+2022-12-02 15:43:16,202 - sync-logger - INFO - 
+2022-12-02 15:43:16,202 - sync-logger - INFO - sent 10,921 bytes  received 11 bytes  3,123.43 bytes/sec
+2022-12-02 15:43:16,202 - sync-logger - INFO - total size is 72,604,738  speedup is 6,641.49
+2022-12-02 15:43:16,202 - sync-logger - INFO - sending incremental file list
+2022-12-02 15:43:16,202 - sync-logger - INFO - 
+2022-12-02 15:43:16,202 - sync-logger - INFO - sent 170 bytes  received 11 bytes  51.71 bytes/sec
+2022-12-02 15:43:16,204 - sync-logger - INFO - total size is 756  speedup is 4.18
+2022-12-02 15:43:16,204 - sync-logger - INFO - sending incremental file list
+2022-12-02 15:43:16,204 - sync-logger - INFO - 
+2022-12-02 15:43:16,204 - sync-logger - INFO - sent 440 bytes  received 11 bytes  128.86 bytes/sec
+2022-12-02 15:43:16,204 - sync-logger - INFO - total size is 17,265  speedup is 38.28
+2022-12-02 15:43:16,205 - sync-logger - INFO - 
+2022-12-02 15:43:16,205 - sync-logger - INFO - sync done
