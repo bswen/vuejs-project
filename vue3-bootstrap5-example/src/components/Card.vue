@@ -1,6 +1,6 @@
 <template>
-  <div class="d-flex">
-    <div class="rounded-top border position-relative">
+  <div class="row">
+    <div class="rounded-top border position-relative" v-if="showImage">
       <img
         src="https://www.gstatic.com/webp/gallery/1.jpg"
         class="img-fluid rounded-top"
@@ -17,11 +17,53 @@
         </div>
       </div>
     </div>
+    <div class="m-3">
+      <Message class="m-2" />
+      <button
+        type="button"
+        class="btn btn-primary m-2"
+        @click="showMessage('success')"
+      >
+        Success Message Component
+      </button>
+      <button
+        type="button"
+        class="btn btn-primary m-2"
+        @click="showMessage('warning')"
+      >
+        Warning Message Component
+      </button>
+      <button
+        type="button"
+        class="btn btn-primary m-2"
+        @click="showMessage('failure')"
+      >
+        Failure Message Component
+      </button>
+    </div>
   </div>
 </template>
 <script>
+import Message from "@/components/Message.vue";
+
 export default {
   name: "Card",
+  data() {
+    return {
+      showImage: false,
+    };
+  },
   props: {},
+  methods: {
+    showMessage(theType) {
+      this.emitter.emit("notify", {
+        type: theType,
+        message: "Here is the message!",
+      });
+    },
+  },
+  components: {
+    Message,
+  },
 };
 </script>
